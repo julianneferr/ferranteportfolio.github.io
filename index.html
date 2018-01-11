@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" /> 
+        <meta name="viewport" content="width=device-width,initial-scale-1"/>
+        
+        <title>Home - Abruzzo Pizza</title>
+        
+        <!--Linking to main stylesheet -->
+        <link rel="stylesheet" href="CSS/style.css"/>
+        <!--Linking to aos plug-in stylesheet -->
+        <link rel="stylesheet" href="CSS/aos.css"/>
+        
+        <!-- HTML5 support for Internet Explorer 8 and below so that they are able to read the new tags -->
+        <!--[if lt IE 9]>
+	   <script src="js/html5shiv.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <nav id="site-nav">
+            <h2 id="nav-title">Abruzzo Pizza</h2>
+            
+            <div>
+            <ul id="nav-list">
+                <li><a class=active href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+                
+        </nav>
+        
+    <main class="wrapper">
+         <header>
+            <h1>est.1981</h1>
+             <h2 id="home-title"><a href="index.html">Abruzzo Pizza</a></h2>
+        </header>
+        
+        <img id="home-img" src="Images/about2.jpg" alt="Slices of Pizza"/>
+
+        
+        <div>
+        <article>
+            <h2 id="home-title1">welcome.<span class="bar">&#8213;</span><span class="bar">&#8213;</span><span class="bar">&#8213;</span><span class="bar">&#8213;</span><span class="bar">&#8213;</span><span class="bar">&#8213;</span><span class="bar">&#8213;</span><span class="bar">&#8213;</span></h2>
+            
+                <!--Jquery plugin, fade in right, last for 0.7s-->
+                <div id="home-sec1" data-aos="fade-right" data-aos-duration="700">
+                    <p class="bold-text">Established in 1981, Abruzzo Pizza provided Sergio and Vince, two brothers who emigrated from the Mediterranean region of Italy, the opportunity to share their culinary delights. </p>
+                    <p>Sergio and Vince’s love of good food and community does not end at the doors to their kitchen, their commitment to their community can be seen on the many faces of all the groups, teams and schools that Abruzzo Pizza sponsors.</p>
+                </div>
+        </article>     
+        </div>
+        
+        <div>
+        <article>
+            <h2 id="home-title2">choose abruzzo.<span class="bar">&#8213;</span><span class="bar">&#8213;</span><span class="bar">&#8213;</span><span class="bar">&#8213;</span></h2>
+            
+            <!--Jquery plugin, fade in right, last for 0.7s, delay by 0.3s and only do it once-->
+            <div data-aos="fade-right" data-aos-duration="700" data-aos-delay="300" data-aos-once="true">
+                <ul id="buttons">
+                    <li><a href="about.html">about us.</a></li>
+                    <li><a href="menu.html">our menu.</a></li>
+                    <li><a href="reviews.html">testimonials.</a></li>
+                    <li id="bottombutton"><a href="contact.html">order now&#10230;</a></li>
+                </ul>
+            </div>
+        </article>
+        </div>
+    
+        <!--Adding go to top button-->
+        <div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">&#10514;</button>
+        </div>
+    
+    
+        <!--link to main javascript-->
+        <script src="JS/main.js"></script>
+        
+        <!--must be at the bottom of the page-->
+        <!--link to aos plugin javascript-->
+        <script src="JS/aos.js"></script>
+        
+        <!--Initializing the plugin-->
+        <script> AOS.init();</script>
+        
+    </main>
+        
+    </body>
+</html>
